@@ -216,6 +216,6 @@ end proc;
 
 local subresultant_chain;
 local subresultant_chain_index_one;
-$include "/src/resultant_chain.mm"
+$include "src/resultant_chain.mm"
 
 end module;

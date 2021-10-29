@@ -19,7 +19,7 @@ Bound := proc(list, $)
 	return 2*bnd + 1; 
 end proc;
 
-ResultantChainBySpecialization := module()
+IntersectBySpecialization := module()
 #Discriminant computed by specialization
 ## Assume rc is a one-dimensional chain over the integers
 ## in the polynomial ring R.
@@ -528,8 +528,8 @@ local subresultant_chain;
 local subresultant_chain_index_one;
 local ModularSRCForBivariatePolynomials;
 
-$include "/src/resultant_chain.mm"
-$include "/src/ModularSRCForBivariatePolynomials.mm"
+$include "src/resultant_chain.mm"
+$include "src/ModularSRCForBivariatePolynomials.mm"
 end module;
 
 

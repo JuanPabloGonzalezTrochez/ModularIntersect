@@ -18,19 +18,3 @@ Normalize_lrc := proc(lrc, R)
    local lnrc :=  map(TRDnormalize_zerodim_regularchain, lrc, R);
 end proc;
 
-(*
-nor_inter := Normalize_lrc(Inter, R);
-inter_una := EquiprojectableDecomposition(nor_inter, R);
-*)
-
-(*
-R := PolynomialRing([x, y, z]);
-
-sys := {-x^5+y^5-3*y-1, 5*y^4-3, -20*x+y-z};
-dec := Triangularize(sys, R);
-dec1 := Triangularize(sys, R, normalized=strongly);
-
-AreEqual(constructibleSet(dec, R), constructibleSet(dec1, R), R);
-*)
-
-## GeneralConstruct(F, H, R)
